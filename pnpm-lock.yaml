@@ -34,8 +34,8 @@ importers:
         version: 4.5.1(vue@3.5.14(typescript@5.8.3))
     devDependencies:
       '@ameinhardt/unocss-preset-daisy':
-        specifier: github:ameinhardt/unocss-preset-daisy
-        version: https://codeload.github.com/ameinhardt/unocss-preset-daisy/tar.gz/81812e086717d2cc9ad06e74dbebc7aafc9ac6ba(daisyui@5.0.35)(unocss@66.1.2(@unocss/webpack@66.1.2(webpack@5.99.8(esbuild@0.25.4)))(postcss@8.5.3)(vite@6.3.5(@types/node@22.15.18)(jiti@2.4.2)(terser@5.39.2)(yaml@2.8.0))(vue@3.5.14(typescript@5.8.3)))
+        specifier: 1.1.7
+        version: 1.1.7(daisyui@5.0.35)(unocss@66.1.2(@unocss/webpack@66.1.2(webpack@5.99.8(esbuild@0.25.4)))(postcss@8.5.3)(vite@6.3.5(@types/node@22.15.18)(jiti@2.4.2)(terser@5.39.2)(yaml@2.8.0))(vue@3.5.14(typescript@5.8.3)))
       '@unocss/nuxt':
         specifier: ^66.1.2
         version: 66.1.2(magicast@0.3.5)(postcss@8.5.3)(vite@6.3.5(@types/node@22.15.18)(jiti@2.4.2)(terser@5.39.2)(yaml@2.8.0))(vue@3.5.14(typescript@5.8.3))(webpack@5.99.8(esbuild@0.25.4))
@@ -48,9 +48,8 @@ importers:
 
 packages:
 
-  '@ameinhardt/unocss-preset-daisy@https://codeload.github.com/ameinhardt/unocss-preset-daisy/tar.gz/81812e086717d2cc9ad06e74dbebc7aafc9ac6ba':
-    resolution: {tarball: https://codeload.github.com/ameinhardt/unocss-preset-daisy/tar.gz/81812e086717d2cc9ad06e74dbebc7aafc9ac6ba}
-    version: 1.1.7
+  '@ameinhardt/unocss-preset-daisy@1.1.7':
+    resolution: {integrity: sha512-UQsbA2yof8f4MtoXDmMAoBZXG8y6oPTOYSw1bzM1G+f/omFSxegPZTi4Cqg2IeydfrIm/v5W9BUz2BFQon9nPA==}
     peerDependencies:
       daisyui: ^4.12.14 || ^5.0.0
       unocss: ^0.65.4
@@ -5394,7 +5393,7 @@ packages:
 
 snapshots:
 
-  '@ameinhardt/unocss-preset-daisy@https://codeload.github.com/ameinhardt/unocss-preset-daisy/tar.gz/81812e086717d2cc9ad06e74dbebc7aafc9ac6ba(daisyui@5.0.35)(unocss@66.1.2(@unocss/webpack@66.1.2(webpack@5.99.8(esbuild@0.25.4)))(postcss@8.5.3)(vite@6.3.5(@types/node@22.15.18)(jiti@2.4.2)(terser@5.39.2)(yaml@2.8.0))(vue@3.5.14(typescript@5.8.3)))':
+  '@ameinhardt/unocss-preset-daisy@1.1.7(daisyui@5.0.35)(unocss@66.1.2(@unocss/webpack@66.1.2(webpack@5.99.8(esbuild@0.25.4)))(postcss@8.5.3)(vite@6.3.5(@types/node@22.15.18)(jiti@2.4.2)(terser@5.39.2)(yaml@2.8.0))(vue@3.5.14(typescript@5.8.3)))':
     dependencies:
       '@tailwindcss/nesting': 0.0.0-insiders.565cd3e(postcss@8.5.3)
       daisyui: 5.0.35

@@ -9,6 +9,9 @@
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare"
   },
+  "engines": {
+    "node": ">=22.0.0"
+  },
   "dependencies": {
     "@nuxt/content": "3.5.1",
     "@nuxt/eslint": "1.4.0",
@@ -21,7 +24,7 @@
   },
   "packageManager": "pnpm@10.7.1+sha512.2d92c86b7928dc8284f53494fb4201f983da65f0fb4f0d40baafa5cf628fa31dae3e5968f12466f17df7e97310e30f343a648baea1b9b350685dafafffdf5808",
   "devDependencies": {
-    "@ameinhardt/unocss-preset-daisy": "github:ameinhardt/unocss-preset-daisy",
+    "@ameinhardt/unocss-preset-daisy": "1.1.7",
     "@unocss/nuxt": "^66.1.2",
     "daisyui": "^5.0.35",
     "unocss": "^66.1.2"
